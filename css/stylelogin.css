@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #056525;
+}
+/* Start of Container */
+    .container{
+        width: 66vw;
+        height: 80vh;
+        background-color: white;
+        transform: translate(25%,13%);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-content: space-around;   
+    }
+/* Start of Section1 */
+    .Img{
+        margin-top: 9vh;
+    }
+    .Img img{
+        width: 30vw;
+        height: 65vh;
+    }
+/* End of Section1 */
+/* Start of Section2 */
+    .account{
+        margin-top: 9vh;
+        margin-right: 5vw;
+    }
+    .account h1{
+        color: #056525;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    .account input[type="email"]{
+        margin-top: 3vh;
+    }
+    .account input[type="password"] , .account input[type="email"]{
+        
+        background: none;
+        border: 2px solid #a3da21;
+        border-radius: 15px;
+        width: 20vw;
+        padding: 10px 10px;
+        transition: .8s;
+
+    }
+    .account input[type="password"]:focus , .account input[type="email"]:focus{
+        
+        border-color: #a3da21;
+        border-left: 3vw solid #a3da21;
+        width: 17.2vw;
+    }
+    #forgot{
+        margin-left: 13vw;
+        text-decoration: none;
+        color: black;
+        font-size: 1.2vw;
+    }
+    #forgot:hover{
+        color: #056525;
+    }
+    .login{
+
+        border: none;
+        width: 8.5vw;
+        height: 7vh;
+        background-color: #056525;
+        color: white;
+        border-radius: 50px;
+        font-size: 1.4vw;
+        cursor: pointer;
+        margin-top: 3vh;
+        margin-left: 6vw;
+    }
+    form p{
+        margin-left: 2.5vw;
+    }
+    .signbtn{
+        text-decoration: none;
+        color: #056525;
+        font-size: 1.4vw;
+        font-weight: bold;
+    }
+   .media{
+    margin-left: 3.7vw;
+   }
+  .media i{
+    font-size: 3vw;
+    cursor: pointer;
+    margin-left: 1.5vw;
+  }
+  .media i:nth-child(1){
+    color: #39569c;
+  }
+  .media i:nth-child(2){
+    color: #db4a39;
+  }
+  .media i:nth-child(3){
+    color: #0072b1;
+  }
+/* End of Section2 */
+/* End of Container */
+
